@@ -1,4 +1,3 @@
-let boot = new Audio('./media/start.mp3');
 const preloader = document.querySelector('.preloader');
 const fadeEffect = setInterval(() => {
   if (!preloader.style.opacity) {
@@ -10,10 +9,14 @@ const fadeEffect = setInterval(() => {
     clearInterval(fadeEffect);
   }
 }, 100);
+
+window.onload = function(){
+  let boot = new Audio('./media/start.mp3');
+  boot.play();
+};
 window.addEventListener('load', () => {
   fadeEffect;
   preloader.style.zIndex = "1";
-  boot.play();
   startupSeq();
 });
 
