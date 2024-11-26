@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>These.</title>
+  <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <div class="preloader">
+    <img src="./media/spinner.svg" style="width: 15vh; height: 15vh;" alt="">
+  </div>
+
+  <div class="container">
+    <div class="col c-1">
+      <div class="item"><img src="./media/meme_acht.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_zwei.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_drei.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_vier.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_fünf.jpg" alt=""></div>
+    </div>
+    <div class="col c-2">
+      <div class="item"><img src="./media/meme_fünf.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_vier.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_acht.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_vier.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_eins.jpg" alt=""></div>
+    </div>
+    <div class="col c-3">
+      <div class="item"><img src="./media/meme_vier.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_drei.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_sieben.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_zwei.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_sechs.jpg" alt=""></div>
+    </div>
+    <div class="col c-4">
+      <div class="item"><img src="./media/meme_zwei.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_sechs.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_eins.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_acht.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_drei.jpg" alt=""></div>
+    </div>
+    <div class="col c-5">
+      <div class="item"><img src="./media/meme_fünf.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_sieben.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_sechs.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_vier.jpg" alt=""></div>
+      <div class="item"><img src="./media/meme_eins.jpg" alt=""></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <nav>
+      <div class="nav-item">
+        <a href="#" id="active">Deez</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="icon"><ion-icon name="add-sharp"></ion-icon></div>
+      <div class="title"><p>Deez Nuts.</p></div>
+      <div class="icon-2"><ion-icon name="add-sharp"></ion-icon></div>
+    </div>
+
+    <footer>
+      <div class="preview">
+        <button popovertarget="popover1" onclick="clickAudio()"><img src="./media/fileicons.png" alt=""></button>
+        <button popovertarget="popover2" onclick="clickAudio()"><img src="./media/fileicons.png" alt=""></button>
+        <button popovertarget="popover3" onclick="clickAudio()"><img src="./media/fileicons.png" alt=""></button>
+        <button popovertarget="popover4" onclick="clickAudio()"><img src="./media/fileicons.png" alt=""></button>
+        <button popovertarget="popover5" onclick="clickAudio()"><img src="./media/fileicons.png" alt=""></button>
+        <!-- <img sr="../media/poem_ein.png" alt=""> -->
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="./script.js"></script>
+
+  <div class="popup" id="popover1" popover>
+    <img src="./media/poem_ein.png" alt="">
+    <h4>bottom text.</h4>
+  </div>
+  <div class="popup" id="popover2" popover>
+    <img src="./media/poem_empty.png" alt="">
+    <h4>Sample text.</h4>
+  </div>
+  <div class="popup" id="popover3" popover>
+    <img src="./media/poem_empty.png" alt="">
+    <h4>Sample text.</h4>
+  </div>
+  <div class="popup" id="popover4" popover>
+    <img src="./media/poem_empty.png" alt="">
+    <h4>Sample text.</h4>
+  </div>
+  <div class="popup" id="popover5" popover>
+    <img src="./media/poem_empty.png" alt="">
+    <h4>Candice</h4>
+  </div>
+</body>
+</html>
